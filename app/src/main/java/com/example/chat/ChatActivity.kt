@@ -24,7 +24,7 @@ open class ChatActivity : AppCompatActivity() {
     private fun onSignInResult(result: FirebaseAuthUIAuthenticationResult) {
         val response = result.idpResponse
         if (result.resultCode == RESULT_OK) {
-            // Successfully signed in
+            // Successfully signed in  gh
             val user = FirebaseAuth.getInstance().currentUser
             // ...
         } else {
